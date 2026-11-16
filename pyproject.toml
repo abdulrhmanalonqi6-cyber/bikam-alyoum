@@ -2,8 +2,8 @@
 name = "bikam_alyoum"
 version = "1.0.0"
 description = "تطبيق بكم اليوم؟"
-requires-python = ">=3.9"
-dependencies = ["flet"]
+requires-python = ">=3.10"
+dependencies = ["flet>=0.27.6"]
 
 [tool.flet]
 org = "com.yemen.bikam"
