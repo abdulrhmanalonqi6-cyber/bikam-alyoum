@@ -3,12 +3,9 @@ name = "bikam_alyoum"
 version = "1.0.0"
 description = "تطبيق بكم اليوم؟ لمقارنة أسعار الأسواق اليمنية"
 requires-python = ">=3.9"
-dependencies = ["flet", "requests"]
+dependencies = ["flet"]
 
 [tool.flet]
 org = "com.yemen.bikam"
-product = "بكم اليوم؟"
-company = "بكم اليوم اليمن"
-
-[tool.flet.android]
-permissions = ["android.permission.INTERNET", "android.permission.ACCESS_FINE_LOCATION", "android.permission.ACCESS_COARSE_LOCATION"]
+product = "Bikam Alyoum"
+company = "Bikam Yemen"
